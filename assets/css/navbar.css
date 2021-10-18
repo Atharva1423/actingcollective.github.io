@@ -1,0 +1,38 @@
+.navbar {
+  background: rgba(75, 70, 70, .3);
+  overflow: auto;
+}
+
+.navbar-a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: rgb(112, 103, 103);
+    transition: 0.3s;
+}
+
+.logo-padding {
+    padding-left: 30px;
+}
+
+.icons{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.icons:hover {
+    text-decoration: none;
+    color: rgb(112, 103, 103);
+    transition: 0.3s;
+}
+
