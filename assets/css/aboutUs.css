@@ -20,3 +20,24 @@
     margin-right: auto;
     width: 50%;
   }
+
+.centerHR{
+    margin-top: 100px;
+    border:1px solid black;
+    margin: auto;
+    color: black;
+}
+
+.leftHR{
+    border:1px solid black;
+    color: black;
+}
+
+.list li{
+    padding: 5px;
+}
+
+.glyphicon-ok{
+    color: rgb(48, 76, 172);
+    margin-left: 10px;
+}
