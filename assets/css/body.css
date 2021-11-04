@@ -1,4 +1,11 @@
 body{
     background-image: url("../img/AC\ Stock\ Photo.jpg");
     font-family: 'Open Sans', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
 }

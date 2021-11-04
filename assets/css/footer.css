@@ -1,0 +1,24 @@
+footer{
+    padding-top: 2%;
+    color: white;
+}
+
+.footer{
+    padding: 2% 2% 1% 2%;
+    background-color: rgba(75, 70, 70, .8);
+}
+
+.fa-instagram,.fa-phone-alt,.fa-envelope{
+    padding-right: 2%;
+}
+
+.footerContent{
+    font-size: 17px;
+    padding-bottom: 2%;
+}
+
+.footerContent div a{
+    text-decoration: none;
+    color: white;
+}
+
