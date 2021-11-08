@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<title>
+			Acting Collective
+		</title>
+		
+        <link type="text/css" rel="stylesheet" href="assets/css/actingCollective.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="assets/js/actingCollective.js"></script>
+	</head>
+
+	<body>
+		<!-- Back to Top Button -->
+        <button onclick="topFunction()" class="top_btn">△</button>
+
+        <!-- Menu Bar div-->
+        <div class="home" id="scroll_home">
+            <ul class="topnav">
+                <li onclick="topFunction()"><a style="margin-left: 2vw" href="actingCollective.html"><img src="assets/img/Typography.png" width="300" height="22"></a></li>
+                <li><a href="#scroll_about">About</a></li>
+                <li><a href="#scroll_features">Features</a></li>
+                <li><a href="#scroll_faq">FAQs</a></li>
+                <li><a href="#scroll_contact">Get a Quote</a></li>
+                <li class="login"><a href="SignIn.html">Log In</a></li>
+            </ul>
+			
+            <h1 align="left" class="t-h1">
+            	Talent Management
+            </h1>
+            <h1 align="left" class="i-h1">
+            	Innovated
+            </h1>
+        </div>
+
+		<!-- About Div -->
+        <div class="about" id="scroll_about">
+            <h1 align="center">
+                About Us
+            </h1>
+            
+            <p align="center">
+                We have beautifully designed client management software specifically for you. We know that working in the entertainment industry is stressful.
+                Your technology shouldn’t be. Our team have experienced first-hand the software on the market and have compiled all the features you want (and added even more).
+            </p>
+
+            <img loading="lazy" src="assets/img/placeholder.gif">
+        </div>
+
+        <!-- Features Div -->
+        <div class="features" id="scroll_features">
+            <div class="messaging">
+                <h1 align="left">
+                    Messaging
+                </h1>
+
+                <p align="left">
+                    We have designed a bespoke messaging system to streamline communication. Need to quickly contact your assistant? Do it all on our system - no need for 
+                    separate emails or texts.
+                </p>
+
+                <img align="left" loading="lazy" style="object-fit: contain;" src="assets/img/messaging.webp">
+            </div>
+            
+            <div class="calendar">
+                <img align="left" loading="lazy" style="object-fit: contain;" src="assets/img/calendar.webp">
+
+                <h1 align="right">
+                    Shared Calendar
+                </h1>
+
+                <p align="left">
+                    Minimise your time spent doing unnecessary administration. Update your availability with our shared calendar for clear communication between an agent 
+                    and client's team.
+                </p>
+            </div>
+            
+            <div class="filtering">
+                <h1 align="center">
+                    Client Filtering System
+                </h1>
+
+                <p align="center">
+                    Encountered an audition with a specific brief? Our in-depth filtering system means that you can quickly find the right client for the right role. No more 
+                    thinking off the top of your head!
+                </p>
+            </div>
+        </div>
+        
+        <!-- Contact Us Div -->
+        <div class="contact" id="scroll_contact">
+            <h1 align="left">
+                Contact Us
+            </h1>
+
+            <form id="contact_form" action="/contact.php">
+                <input type="text" id="fname" name="firstname" placeholder="First Name">
+            
+                <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+                <input type="email" id="em" name="email" placeholder="Email">
+
+                <input type="tel" id="num" name="phone" placeholder="Phone">
+
+                <input type="text" id="work" name="company" placeholder="Company & Role">
+            
+                <input type="submit" id="submit" value="Submit">
+            </form>
+
+            <h5>
+                © 2023 by Acting Collective
+            </h5>
+        </div>
+</html>

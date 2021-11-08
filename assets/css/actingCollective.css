@@ -1,0 +1,261 @@
+* {margin: 0; padding: 0; border: none;}
+
+/*Main HTML*/
+html
+{
+    scroll-behavior: smooth;
+    cursor: default;
+    font-family: sans-serif;
+    background-color: #F5F5F5;
+    overflow-x: hidden;
+}
+
+/*Main Body*/
+/* body
+{
+    
+} */
+div
+{
+    height: auto;
+    width: 100vw;
+    text-align: center;
+}
+
+/*ScrollBar*/
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+/*-----------------------------------Home Div-----------------------------------*/
+.home
+{
+    background-image: url(../img/home.webp);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vw;
+	min-height: 55vh;
+}
+/*NavBar*/
+.topnav
+{
+    list-style-type: none;
+    overflow: hidden;
+}
+.topnav li a
+{
+    float: left;
+	margin-left: 8vw;
+    color: Black;
+    text-align: center;
+    padding: 20 1vw;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 17px;
+	font-weight: bold;
+}
+.topnav li a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.login
+{
+    float: right;
+    margin-right: 5vw;
+    /* background-color: rgb(202, 69, 69); */
+    font-weight: normal;
+}
+.home h1
+{
+    font-weight: bold;
+}
+.t-h1
+{
+    color: Black;
+	padding-top: 8vh;
+	padding-left: 8vw;
+    font-size: 55px;
+	background-color: transparent;
+}
+.i-h1
+{
+    color: White;
+	background-color: transparent;
+    padding-top: 1vh;
+	padding-left: 8vw;
+    font-size: 55px;
+}
+/*Top Button*/
+.top_btn
+{
+    background: White;
+    position: fixed;
+    z-index: 100;
+    margin: 88vh 0 0 93vw;
+    padding: 5px 12px;
+    font-size: 40px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 35px;
+    transition: 0.3s;
+}
+.top_btn:hover
+{
+    color: White;
+    background: Black;
+}
+.top_btn:focus
+{
+    outline: none;
+}
+
+/*-----------------------------------About Div-----------------------------------*/
+.about
+{
+	min-height: 95.2vh;
+    width: 100vw
+}
+.about h1
+{
+    padding: 8vh;
+    font-size: 38px;
+}
+.about p
+{
+    margin: 0 10vw 0 10vw;
+    font-size: 25px;
+}
+.about img
+{
+    margin-top: 50px;
+    width: 60vw;
+    height: 60vh;
+    border-style: ridge;
+}
+
+/*-----------------------------------Features Div-----------------------------------*/
+@keyframes slide
+{
+    from {padding: 3vh 0 0 0;}
+    to {object-position: 3vh 0 0 3vw;}
+}
+.messaging
+{
+    background-color: White;
+    margin: 5vh 5vw 0 15vw;
+    display: inline-block;
+    width: 80vw;
+    height: fit-content;
+    border-radius: 25px;
+}
+.messaging h1
+{
+    padding: 2vh 3vw;
+    font-size: 38px;
+}
+.messaging p
+{
+    margin: 0 30vw 0 3vw;
+    font-size: 25px;
+}
+.messaging img
+{
+    padding: 3vh 0 0 3vw;
+    height:48vh;
+    width:42vw;
+    animation-name: slide;
+    animation-duration: 2s;
+}
+.calendar
+{
+    background-color: White;
+    margin: 5vh 15vw 0 5vw;
+    display: inline-block;
+    width: 80vw;
+    height: fit-content;
+    border-radius: 25px;
+}
+.calendar img
+{
+    padding: 8vh 0 0 2vw;
+    height: 54vh;
+    width: 47vw;
+}
+.calendar h1
+{
+    padding: 2vh 10vw 0 0;
+    font-size: 38px;
+}
+.calendar p
+{
+    margin: 24vh 3vw 0 3vw;
+    font-size: 25px;
+}
+.filtering
+{
+    background-color: White;
+    margin: 5vh 5vw 0 5vw;
+    padding-bottom: 2vh;
+    display: inline-block;
+    width: 90vw;
+    height: fit-content;
+    border-radius: 25px;
+}
+.filtering h1
+{
+    padding: 2vh 0;
+    font-size: 38px;
+}
+.filtering p
+{
+    margin: 0 20vw 0 20vw;
+    font-size: 25px;
+}
+
+/*-----------------------------------Contact Us Div-----------------------------------*/
+.contact
+{
+    /* min-height: 95.2vh; */
+    width: 100vw;
+}
+.contact h1
+{
+    margin: 5vh 10vw;
+    font-size: 38px;
+}
+#contact_form input:not(#submit)
+{
+    margin: 8px 10vw;
+    padding: 0;
+    border-bottom: solid;
+    font-size: 15px;
+    height: 60px;
+    width: 80vw;
+    background-color: transparent;
+    outline: none;
+}
+#contact_form input:hover:not(#submit)
+{
+    background-color: White;
+}
+#submit
+{
+    color: White;
+    background-color: rgb(30, 30, 30);
+    margin: 30px 10vw 0 10vw;
+    padding: 0;
+    font-size: 15px;
+    height: 50px;
+    width: 25vw;
+}
+#submit:hover
+{
+    background-color: Black;
+}
+.contact h5
+{
+    margin: 15px 0;
+}
