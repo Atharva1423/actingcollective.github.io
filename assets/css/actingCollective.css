@@ -31,7 +31,7 @@ div
 /*-----------------------------------Home Div-----------------------------------*/
 .home
 {
-    background-image: url(../img/home.webp);
+    background-image: url(../img/background.webp);
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
